@@ -4,6 +4,6 @@ BoxChaseBall is a simple AI4U demonstration end to end with reinforcement learni
 
 The best score in this environment is one (1). Using the vanilla A3C algorithm with four workers, we reach the best score of about twelve minutes. Figure 1 shows training evolution. Similar results has been obtained with Stable Baseline PPO2 implementation.
 
-| ![Chase Agent](/doc/images/ballrollertraining.png) |
+| ![Chase Agent](doc/images/ballrollertraining.png) |
 | :--: |
 | Figure 1. *Training evolution.* |

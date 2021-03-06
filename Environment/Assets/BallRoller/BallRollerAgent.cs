@@ -35,7 +35,7 @@ public class BallRollerAgent : RLAgent
         transform.localPosition = new Vector3(0, 0.5f, 0);
         fx = 0;
         fz = 0;
-        ResetReward();
+        reward = 0;
     }
 
     public override void ApplyAction()
@@ -86,6 +86,6 @@ public class BallRollerAgent : RLAgent
         SetStateAsFloat(6, "x", transform.localPosition.x);
         SetStateAsFloat(7, "y", transform.localPosition.y);
         SetStateAsFloat(8, "z", transform.localPosition.z);
-        ResetReward();
+        reward = 0;
     }
 }
